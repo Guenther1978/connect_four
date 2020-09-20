@@ -75,4 +75,4 @@ if read_the_docs_build:
     output_dir = 'build'
     configureDoxyfile(output_dir)
     subprocess.call('doxygen Doxyfile_RTD', shell = True)
-    brathe_projects['Connect Four'] = output_dir + '/xml'
+    breathe_projects['Connect Four'] = output_dir + '/xml'
