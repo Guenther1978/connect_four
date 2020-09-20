@@ -10,8 +10,10 @@ Welcome to Connect Four's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+.. doxygenclass:: Spieler
+.. doxygenfunction:: Spieler::waehle_spalte
 
-
+		  
 Indices and tables
 ==================
 
