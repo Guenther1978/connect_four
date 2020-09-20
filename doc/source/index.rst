@@ -11,7 +11,9 @@ Welcome to Connect Four's documentation!
    :caption: Contents:
 
 .. doxygenclass:: Spieler
-.. doxygenfunction:: Spieler::waehle_spalte
+   :members:
+
+
 
 		  
 Indices and tables
