@@ -17,7 +17,7 @@
 import subprocess, os
 
 def configureDoxyfile(output_dir):
-    with open('Doxyfile', 'r') as file:
+    with open('../Doxyfile', 'r') as file:
         filedata = file.read()
 
     filedata = filedata.replace('@DOXYGEN_OUTPUT_DIR@', output_dir)
