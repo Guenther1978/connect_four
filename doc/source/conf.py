@@ -73,7 +73,7 @@ html_static_path = ['_static']
 read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 
 if read_the_docs_build:
-    input_dir = '../../src'
+    input_dir = '../src'
     output_dir = 'build'
     configureDoxyfile(input_dir, output_dir)
     subprocess.call('doxygen Doxyfile_RTD', shell = True)
