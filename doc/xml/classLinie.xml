@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classLinie" kind="class" language="C++" prot="public">
+    <compoundname>Linie</compoundname>
+    <basecompoundref refid="classPunkt" prot="public" virt="non-virtual">Punkt</basecompoundref>
+    <derivedcompoundref refid="classRechteck" prot="public" virt="non-virtual">Rechteck</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLinie_1aac861675a6ffcc4f8823286a13204231" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Linie::x2</definition>
+        <argsstring></argsstring>
+        <name>x2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/graphics.hpp" line="24" column="1" bodyfile="/home/beulen/connect_four/src/graphics.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classLinie_1ae1c53ad7b3e29240c55b73a15ef6f533" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Linie::y2</definition>
+        <argsstring></argsstring>
+        <name>y2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/graphics.hpp" line="25" column="1" bodyfile="/home/beulen/connect_four/src/graphics.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classLinie_1ab147f6d61c5d1d11581431870635605c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Linie::Linie</definition>
+        <argsstring>()</argsstring>
+        <name>Linie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/graphics.hpp" line="27" column="1" bodyfile="/home/beulen/connect_four/src/graphics.cpp" bodystart="45" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classLinie_1a739982fd6ad56b4160d6f70d7f243461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Linie::Linie</definition>
+        <argsstring>(int x1, int y1, int x2, int y2)</argsstring>
+        <name>Linie</name>
+        <param>
+          <type>int</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/graphics.hpp" line="28" column="1" bodyfile="/home/beulen/connect_four/src/graphics.cpp" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classLinie_1ac028eaf9f596d1f5e650df0fd75ce076" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Linie::GetX2</definition>
+        <argsstring>(void)</argsstring>
+        <name>GetX2</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/graphics.hpp" line="29" column="1" bodyfile="/home/beulen/connect_four/src/graphics.hpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classLinie_1a70f3347cf428174bc434300e8cd6ac27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Linie::GetY2</definition>
+        <argsstring>(void)</argsstring>
+        <name>GetY2</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/graphics.hpp" line="30" column="1" bodyfile="/home/beulen/connect_four/src/graphics.hpp" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classLinie_1a020923eb5e0e689943092a951bdd97ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void Linie::zeichne</definition>
+        <argsstring>(void)</argsstring>
+        <name>zeichne</name>
+        <reimplements refid="classPunkt_1a56a7c6d43c1d7c8abcce4a52b70dcbe5">zeichne</reimplements>
+        <reimplementedby refid="classRechteck_1ae1cf6e40aa415dda46cd9c32b62e4f62">zeichne</reimplementedby>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/graphics.hpp" line="31" column="1" bodyfile="/home/beulen/connect_four/src/graphics.cpp" bodystart="57" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="19">
+        <label>Linie</label>
+        <link refid="classLinie"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Rechteck</label>
+        <link refid="classRechteck"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Punkt</label>
+        <link refid="classPunkt"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>Linie</label>
+        <link refid="classLinie"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Punkt</label>
+        <link refid="classPunkt"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/beulen/connect_four/src/graphics.hpp" line="22" column="1" bodyfile="/home/beulen/connect_four/src/graphics.hpp" bodystart="21" bodyend="32"/>
+    <listofallmembers>
+      <member refid="classPunkt_1a05a674f3df103aca9cf16e3e9cba97d3" prot="public" virt="non-virtual"><scope>Linie</scope><name>GetX</name></member>
+      <member refid="classLinie_1ac028eaf9f596d1f5e650df0fd75ce076" prot="public" virt="non-virtual"><scope>Linie</scope><name>GetX2</name></member>
+      <member refid="classPunkt_1a3eb68dd11820b73de18f1e2e9fcdcab7" prot="public" virt="non-virtual"><scope>Linie</scope><name>GetY</name></member>
+      <member refid="classLinie_1a70f3347cf428174bc434300e8cd6ac27" prot="public" virt="non-virtual"><scope>Linie</scope><name>GetY2</name></member>
+      <member refid="classLinie_1ab147f6d61c5d1d11581431870635605c" prot="public" virt="non-virtual"><scope>Linie</scope><name>Linie</name></member>
+      <member refid="classLinie_1a739982fd6ad56b4160d6f70d7f243461" prot="public" virt="non-virtual"><scope>Linie</scope><name>Linie</name></member>
+      <member refid="classPunkt_1af7cc035bf4bdbf606a7216987d519bb9" prot="public" virt="non-virtual"><scope>Linie</scope><name>Punkt</name></member>
+      <member refid="classPunkt_1ac275ebebbd57302b0984ef9cbc9b54ba" prot="public" virt="non-virtual"><scope>Linie</scope><name>Punkt</name></member>
+      <member refid="classLinie_1aac861675a6ffcc4f8823286a13204231" prot="private" virt="non-virtual"><scope>Linie</scope><name>x2</name></member>
+      <member refid="classLinie_1ae1c53ad7b3e29240c55b73a15ef6f533" prot="private" virt="non-virtual"><scope>Linie</scope><name>y2</name></member>
+      <member refid="classLinie_1a020923eb5e0e689943092a951bdd97ed" prot="public" virt="virtual"><scope>Linie</scope><name>zeichne</name></member>
+      <member refid="classPunkt_1ae1389278c90ba6f2b976611240921ad3" prot="public" virt="non-virtual" ambiguityscope="Punkt::"><scope>Linie</scope><name>zeichne</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>/home/beulen/connect_four/src</compoundname>
+    <innerfile refid="connect__four_8cpp">connect_four.cpp</innerfile>
+    <innerfile refid="constants_8hpp">constants.hpp</innerfile>
+    <innerfile refid="graphics_8cpp">graphics.cpp</innerfile>
+    <innerfile refid="graphics_8hpp">graphics.hpp</innerfile>
+    <innerfile refid="player_8cpp">player.cpp</innerfile>
+    <innerfile refid="player_8hpp">player.hpp</innerfile>
+    <innerfile refid="playing__field_8cpp">playing_field.cpp</innerfile>
+    <innerfile refid="playing__field_8hpp">playing_field.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/beulen/connect_four/src/"/>
+  </compounddef>
+</doxygen>

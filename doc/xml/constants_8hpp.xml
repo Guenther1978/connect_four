@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="constants_8hpp" kind="file" language="C++">
+    <compoundname>constants.hpp</compoundname>
+    <includedby refid="playing__field_8hpp" local="yes">/home/beulen/connect_four/src/playing_field.hpp</includedby>
+    <includedby refid="graphics_8cpp" local="yes">/home/beulen/connect_four/src/graphics.cpp</includedby>
+    <includedby refid="player_8cpp" local="yes">/home/beulen/connect_four/src/player.cpp</includedby>
+    <includedby refid="playing__field_8cpp" local="yes">/home/beulen/connect_four/src/playing_field.cpp</includedby>
+    <invincdepgraph>
+      <node id="20">
+        <label>/home/beulen/connect_four/src/connect_four.cpp</label>
+        <link refid="connect__four_8cpp"/>
+      </node>
+      <node id="19">
+        <label>/home/beulen/connect_four/src/playing_field.hpp</label>
+        <link refid="playing__field_8hpp_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>/home/beulen/connect_four/src/constants.hpp</label>
+        <link refid="constants.hpp"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="constants_8hpp_1a6f965c0313622be95cc53d4d73d0761a" prot="public" static="no">
+        <name>LINKS_OBEN</name>
+        <initializer>ACS_ULCORNER</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="5" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a3893a4e656dd3ea1cde2e334dca29729" prot="public" static="no">
+        <name>RECHTS_OBEN</name>
+        <initializer>ACS_URCORNER</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="6" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1ac19f0638dff16fb158b8b39464ee9a78" prot="public" static="no">
+        <name>HORIZ</name>
+        <initializer>ACS_HLINE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="7" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a22c2b7cb14b1ffb516a9ed4a164b5cda" prot="public" static="no">
+        <name>VERT</name>
+        <initializer>ACS_VLINE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="8" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1ab76dfe3ed549467085912852c6a2e51e" prot="public" static="no">
+        <name>LINKS_UNT</name>
+        <initializer>ACS_LLCORNER</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="9" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a9a9fab7ab5d1f84d1ef9e5a7ec39d763" prot="public" static="no">
+        <name>RECHTS_UNT</name>
+        <initializer>ACS_LRCORNER</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="10" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a1ece674b37e86835f0a3d61ac642f8f8" prot="public" static="no">
+        <name>ZEILEN</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="13" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a7cedfe152ec7bdc003732b3e378165a9" prot="public" static="no">
+        <name>SPALTEN</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="14" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1abd43f38ed36bd771804ddb7dda5eaea6" prot="public" static="no">
+        <name>SPIELER</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="15" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a43b5f0d2f365e09c880233a594213f85" prot="public" static="no">
+        <name>ELEMENTE</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="16" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1ad4d26bddb3b0aedf7dd1e50e72cb1578" prot="public" static="no">
+        <name>ANZAHL_STEINE</name>
+        <initializer>ZEILEN*SPALTEN</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="17" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1aa49054203c59a8a488222f75a6fa3d8d" prot="public" static="no">
+        <name>ECKE_X</name>
+        <initializer>30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="20" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a46f769a926f985edfc026f0f0f49e2fa" prot="public" static="no">
+        <name>ECKE_Y</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="21" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a7023e173e4402cf42683077923defb6f" prot="public" static="no">
+        <name>BREITE</name>
+        <initializer>2*SPALTEN+2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="22" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1ab98cbf4190d5741c4546aa954e67ebb6" prot="public" static="no">
+        <name>HOEHE</name>
+        <initializer>ZEILEN+1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="23" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a59add3dd49e5b471558b3a35106b9192" prot="public" static="no">
+        <name>SPIELER_Y</name>
+        <initializer>ECKE_Y+HOEHE+3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="24" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a8369a70e537f155081a0991b4990fb97" prot="public" static="no">
+        <name>SPIELER_X</name>
+        <initializer>ECKE_X</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="25" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a87de9e614e569ad7515696d6fea15de6" prot="public" static="no">
+        <name>MELDUNGEN_Y</name>
+        <initializer>ECKE_Y+HOEHE+4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="26" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1aed1d954e5237d95667edb0b63394de2c" prot="public" static="no">
+        <name>MELDUNGEN_X</name>
+        <initializer>ECKE_X</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="27" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a7fb5b50520a0175691236dfb55e26260" prot="public" static="no">
+        <name>PUNKTE_1_Y</name>
+        <initializer>ECKE_Y+HOEHE+6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="28" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1af440f66451c1f2bdaaf784598b1d5561" prot="public" static="no">
+        <name>PUNKTE_1_X</name>
+        <initializer>ECKE_X+11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="29" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1ae97e0a33536be97084fca67d02c2c628" prot="public" static="no">
+        <name>PUNKTE_2_Y</name>
+        <initializer>ECKE_Y+HOEHE+7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="30" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1ace1b67dce52e8662d4d6c8c50afd3394" prot="public" static="no">
+        <name>PUNKTE_2_X</name>
+        <initializer>ECKE_X+11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="31" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1a91ea4c38cdda9b008898daeefff9939a" prot="public" static="no">
+        <name>ZEILE_MAX</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="45" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1ab8cd4585681c6f27d7656cf001e91066" prot="public" static="no">
+        <name>ZEILE_MIN</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="46" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1ae9bde4de419b2f25f3bbcbdcfc63fc6a" prot="public" static="no">
+        <name>MITTE</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="47" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1ad7c2133186401e159907f21382933f30" prot="public" static="no">
+        <name>SPALTE_LINKS</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="48" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="constants_8hpp_1abf4064271f38cddc80f5f98527a26577" prot="public" static="no">
+        <name>SPALTE_RECHTS</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/beulen/connect_four/src/constants.hpp" line="49" column="9" bodyfile="/home/beulen/connect_four/src/constants.hpp" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>_CONSTANTS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_CONSTANTS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*-----<sp/>Konstanten<sp/>zum<sp/>Zeichnen<sp/>von<sp/>Rechtecken<sp/>und<sp/>Linien<sp/>-------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINKS_OBEN<sp/><sp/>ACS_ULCORNER<sp/><sp/><sp/><sp/><sp/>//<sp/>Zeichen<sp/>zum<sp/>Malen<sp/>der<sp/>Linien<sp/>und</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RECHTS_OBEN<sp/>ACS_URCORNER<sp/><sp/><sp/><sp/><sp/>//<sp/>Rechtecke.<sp/>Die<sp/>Zeichen<sp/>sind<sp/>in<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HORIZ<sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACS_HLINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>der<sp/>Headerdatei<sp/>&apos;ncurses.h&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ACS_VLINE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>//<sp/>vordefiniert.<sp/>Es<sp/>handelt<sp/>sich<sp/>um</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LINKS_UNT<sp/><sp/><sp/>ACS_LLCORNER<sp/><sp/><sp/><sp/><sp/>//<sp/>senkrechte<sp/>und<sp/>waagerechte<sp/>Linie</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RECHTS_UNT<sp/><sp/>ACS_LRCORNER<sp/><sp/><sp/><sp/><sp/>//<sp/>sowie<sp/>um<sp/>die<sp/>vier<sp/>Ecken<sp/>eines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Rechtecks</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*-----<sp/>Konstanten<sp/>des<sp/>Spieles<sp/>----------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ZEILEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SPALTEN<sp/><sp/><sp/><sp/><sp/><sp/><sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SPIELER<sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ELEMENTE<sp/><sp/><sp/><sp/><sp/><sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ANZAHL_STEINE<sp/>ZEILEN*SPALTEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*-----<sp/>Konstanten<sp/>zur<sp/>Textausgabe<sp/>------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ECKE_X<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ECKE_Y<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BREITE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2*SPALTEN+2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HOEHE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ZEILEN+1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SPIELER_Y<sp/><sp/><sp/><sp/><sp/>ECKE_Y+HOEHE+3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SPIELER_X<sp/><sp/><sp/><sp/><sp/>ECKE_X</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MELDUNGEN_Y<sp/><sp/><sp/>ECKE_Y+HOEHE+4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MELDUNGEN_X<sp/><sp/><sp/>ECKE_X</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PUNKTE_1_Y<sp/><sp/><sp/><sp/>ECKE_Y+HOEHE+6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PUNKTE_1_X<sp/><sp/><sp/><sp/>ECKE_X+11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PUNKTE_2_Y<sp/><sp/><sp/><sp/>ECKE_Y+HOEHE+7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PUNKTE_2_X<sp/><sp/><sp/><sp/>ECKE_X+11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*-----<sp/>Aufbau<sp/>des<sp/>Spielfeldes<sp/>----------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/><sp/>_______________</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/>0|_|_|_|_|_|_|_|</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/>1|_|_|_|_|_|_|_|</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/>2|_|_|_|_|_|_|_|</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/>3|_|_|_|_|_|_|_|</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/>4|_|_|_|_|_|_|_|</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/>5|_|_|_|_|_|_|_|</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/>1<sp/>2<sp/>3<sp/>4<sp/>5<sp/>6</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">/*---------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*-----<sp/>Konstanten<sp/>zur<sp/>Ueberprufung<sp/>des<sp/>Spielfeldinhaltes<sp/>-------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ZEILE_MAX<sp/><sp/><sp/><sp/><sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ZEILE_MIN<sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MITTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SPALTE_LINKS<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SPALTE_RECHTS<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/beulen/connect_four/src/constants.hpp"/>
+  </compounddef>
+</doxygen>
