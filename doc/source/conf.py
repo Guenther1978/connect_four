@@ -14,6 +14,16 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import subprocess, os
+
+def configureDoxyfile(output_dir):
+    with open('Doxyfile', 'r') as file:
+        filedata = file.read()
+
+    filedata = filedata.replace('@DOXYGEN_OUTPUT_DIR@', output_dir)
+
+    with open('Doxyfile_RTD', 'w') as file:
+        file.write(filedata)
 
 # -- Project information -----------------------------------------------------
 
@@ -56,3 +66,13 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# -- Is RTD running this script? ---------------------------------------------
+
+read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
+
+if read_the_docs_build:
+    output_dir = 'build'
+    configureDoxyfile(output_dir)
+    subprocess.call('doxygen Doxyfile_RTD', shell = True)
+    brathe_projects['Connect Four'] = output_dir + '/xml'
