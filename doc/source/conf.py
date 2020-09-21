@@ -44,7 +44,7 @@ release = '1'
 extensions = ['breathe'
 ]
 
-breathe_projects = {"Connect Four": "/home/beulen/connect_four/doc/xml"}
+breathe_projects = {"Connect Four": "/home/beulen/connect_four/doc/"}
 breathe_default_project = "Connect Four"
 
 # Add any paths that contain templates here, relative to this directory.
