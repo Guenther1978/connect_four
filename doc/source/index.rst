@@ -10,12 +10,14 @@ Welcome to Connect Four's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-.. doxygenclass:: Spieler
-   :members:
+   player.rst
+   playing_field.rst
 
 
 
-		  
+
+
+      
 Indices and tables
 ==================
 
