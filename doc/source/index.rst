@@ -10,6 +10,7 @@ Welcome to Connect Four's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   introduction.rst
    player.rst
    playing_field.rst
 
