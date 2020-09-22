@@ -1,19 +1,15 @@
 #ifndef _PLAYER_H_
 #define _PLAYER_H_
 
-/***********************************************************************/
-/* Klassen zur Realisierung des Spieles                                */
-/***********************************************************************/
-class Spielfeld;    // Vorwaertsdeklaration
-
-/***********************************************************************/
 /**
  * @file
  * @brief The class Player
  *
- * Instances of the class Player exist two times in the
- * game 'connect four'.
+ * Two instances of the class Player in the game 'connect four'.
  */
+
+class Spielfeld;    // forward declaration
+
 class Spieler
 {
   private:
@@ -33,25 +29,25 @@ class Spieler
    */
   Spieler(int, char, char, bool, bool);
 
-  /** @return the number of this player.*/
+  /** @return the number of this player*/
   int gebe_nummer(void)            {return nummer;};
 
-  /** @return the token of this player.*/
+  /** @return the token of this player*/
   char gebe_stein(void)            {return spielstein;};
 
-  /** @return the token of the other player.*/
+  /** @return the token of the other player*/
   char gebe_stein_gegener(void)    {return spielstein_gegner;};
 
-  /** @return the number of victories.*/
+  /** @return the number of victories*/
   int gebe_siege(void)             {return siege;};
 
-  /** @return if this player will start the game.*/
+  /** @return Is this player will start the game*/
   bool gebe_darf_anfangen(void)    {return darf_anfangen;};
 
-  /** @return if this player is a human beeing or a computer.*/
+  /** @return if this player is a human beeing or a computer*/
   bool gebe_ist_mensch(void)       {return ist_mensch;};
 
-  /** @brief Increments the number of victories.*/
+  /** @brief Increments the number of victories*/
   void inkrementiere_siege(void)   {siege ++;};
 
   /** @param a Will this player start the new game?*/
