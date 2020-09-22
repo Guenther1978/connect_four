@@ -1,5 +1,5 @@
-Class playing_field
-===================
+Class PlayingField
+==================
 
 .. doxygenclass:: Spielfeld
    :members:
