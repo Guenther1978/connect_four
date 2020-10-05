@@ -16,7 +16,7 @@ The installation of make is optional, it makes the building easier.
    sudo apt install libncurses5-dev libncursesw5-dev
    sudo apt install make
 
-:: Download the repository
+- Download the repository
 
 .. code-block::
 
@@ -25,21 +25,21 @@ The installation of make is optional, it makes the building easier.
    
 Instead of using git the repository can be downloaded as a zip archive.
 
-::  Go inside the *src* folder
+- Go inside the *src* folder
 
 .. code-block::
 
    cd connect_four/src/
 
    
-:: Compiling and linking the code
+- Compiling and linking the code
 
 .. code-block::
 
    make
 
 
-:: Start the game
+- Start the game
 
 .. code-block::
 
