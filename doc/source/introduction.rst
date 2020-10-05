@@ -16,25 +16,35 @@ The installation of make is optional, it makes the building easier.
    sudo apt install libncurses5-dev libncursesw5-dev
    sudo apt install make
 
-# Download the repository
+#. Download the repository
 
-.. code-blocks::
+.. code-block::
 
    git clone https://guthub.com/Guenther1978/connect_four
 
+   
 Instead of using git the repository can be downloaded as a zip archive.
 
-# Go inside the *src* folder
+#.  Go inside the *src* folder
 
-.. code-blocks::
+.. code-block::
 
    cd connect_four/src/
 
-# Compiling and linking the code
+   
+#. Compiling and linking the code
 
-.. code-blocks::
+.. code-block::
 
    make
+
+
+#. Start the game
+
+.. code-block::
+
+   ./connect_four
+   
 
 Rules of the game
 -----------------
