@@ -11,6 +11,8 @@ Welcome to Connect Four's documentation!
    :caption: Contents:
 
    introduction.rst
+   installation.rst
+   rules_of_the_game.rst
    player.rst
    playing_field.rst
 
@@ -23,5 +25,3 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
