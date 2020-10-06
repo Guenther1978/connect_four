@@ -1,5 +1,5 @@
-Building the executeable
-========================
+Installation
+============
 
 An installation of g++ and an installation of the curses library is required.
 The installation of make is optional, it makes the building easier.
